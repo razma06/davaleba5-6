@@ -12,7 +12,6 @@ class AuthenticationActivity : AppCompatActivity() {
         init()
 
     }
-
     private fun init() {
         logInButton.setOnClickListener {
             val intent = Intent(this, LogInActivity::class.java)
